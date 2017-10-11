@@ -1,0 +1,56 @@
+/*general*/
+
+.desktop {
+  width: 1200px;
+  display: flex;
+  align-items: center;
+}
+
+
+/*header*/
+
+header {
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  padding: 0 24px;
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: 'Muli', sans-serif;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.logoicon {
+  background-image: url("../images/ic-logo.svg");
+  background-repeat-x: no-repeat;
+  height: 32px;
+  width: 30px;
+}
+
+.colmar {
+  font-weight: 700;
+}
+
+.academy {
+  color: #9d9d9d;
+}
+
+nav {
+  margin-left: auto;
+}
+
+ul {
+  display: flex;
+}
+
+li {
+  font-family: muli;
+  font-size: 18px;
+  margin: 0 16px;
+}
