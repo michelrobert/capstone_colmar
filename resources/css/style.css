@@ -135,7 +135,6 @@ main {
 
 .articlecontainer {
   display: flex;
-  margin-bottom: 300px;
   height: 600px
 }
 
@@ -163,6 +162,7 @@ main {
 .articles-big p {
   margin-top: 24px;
   line-height: 1.2;
+  font-weight: 100;
 }
 
 .credits {
@@ -206,11 +206,13 @@ main {
 }
 
 .articleinfo h3 {
-  font-size: 24px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .articleinfo p {
   margin-top: 15px;
+  font-weight: 100;
 }
 
 .articleinfo a {
@@ -229,4 +231,188 @@ main {
 
 .guest {
   background-image: url("../images/information-guest-lecture.jpg");
+}
+
+
+/*Start learning*/
+
+.learningcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 32px;
+}
+
+.learningcontainer h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.learning {
+  background-color: #EAEBEC;
+  display: flex;
+  justify-content: center;
+}
+
+.learn {
+  background-image: white;
+  max-width: 300px;
+  height: 300px;
+  background-color: white;
+  margin: 16px;
+}
+
+.learn h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 16px
+}
+
+.learn p {
+  margin: 8px 16px;
+  line-height: 1.2;
+  font-weight: 100;
+}
+
+.learnimg {
+  width: 100%;
+  height: 45%;
+  background-size: cover;
+}
+
+.software {
+  background-image: url("../images/course-software.jpg");
+}
+
+.art {
+  background-image: url("../images/course-computer-art.jpg");
+}
+
+.design {
+  background-image: url("../images/course-design.jpg");
+}
+
+.data {
+  background-image: url("../images/course-data.jpg");
+}
+
+.business {
+  background-image: url("../images/course-business.jpg");
+}
+
+.marketing {
+  background-image: url("../images/course-marketing.jpg");
+}
+
+
+/*exhibit*/
+
+.exhibitcontainer {
+  display: flex;
+}
+
+.exhibit {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.exhibit h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.exhibit h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 24px 0px 8px 0px;
+}
+
+.exhibitvideo {
+  width: 60%;
+  padding: 0 24px;
+  margin-top: 16px;
+}
+
+.exhibitvideo p {
+  margin-bottom: 32px;
+}
+
+.exhibitsmallimg {
+  width: 35%;
+  height: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 16px;
+}
+
+.exhibits-small {
+  width: 40%;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.exhibit-small {
+  border-bottom: 1px solid #D8D8D8;
+  display: flex;
+  height: 33%;
+}
+
+.exhibit-small-grey {
+  display: flex;
+  height: 33%;
+  background-color: #D8D8D8;
+}
+
+.exhibitinfo {
+  font-size: 20px;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+.exhibitinfo p {
+  margin-top: 15px;
+  font-weight: 100;
+  font-size: 16px;
+}
+
+.fisma {
+  background-image: url("../images/thesis-fisma.jpg");
+}
+
+.thesis {
+  background-image: url("../images/thesis-now-and-then.jpg");
+}
+
+/*footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 100;
+  border-top: 1px solid #D8D8D8;
+}
+
+.footercontainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-bottom: 40px;
+}
+
+.footercontainer ul li {
+  display: flex;
+  font-size: 14px;
+  font-weight: 100;
 }
