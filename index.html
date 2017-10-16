@@ -5,10 +5,12 @@
     <link href="resources/css/reset.css" type="text/css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
     <link href="resources/css/style.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colmaracademy</title>
   </head>
   <body>
-    <header>
+
+    <header class="headerdesktop">
       <div class="header desktop">
         <div class="logo">
           <div class="logoicon"></div>
@@ -25,6 +27,13 @@
         </nav>
       </div>
     </header>
+
+    <header class="headermobile">
+      <div class="micon lion"></div>
+      <div class="micon chair"></div>
+      <div class="micon display"></div>
+      <div class="micon user"></div>
+    </header>
     <main>
       <div class="desktop maincontainer">
         <div class="picturecontainer">
@@ -37,6 +46,7 @@
         </div>
       </div>
     </main>
+
     <section class="articles">
       <div class="articlecontainer desktop">
         <div class="articles-big">
@@ -117,8 +127,8 @@
       </div>
     </section>
     <section class="exhibit">
-      <h2>Thesis exhibit</h2>
       <div class="exhibitcontainer desktop">
+        <h2>Thesis exhibit</h2>
         <div class="exhibitvideo">
           <video class="video" width="100%" height="auto" controls>
             <source src="resources/videos/thesis.mp4" type="video/mp4">

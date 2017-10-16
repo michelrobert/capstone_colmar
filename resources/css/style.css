@@ -11,6 +11,9 @@ a, p, h1, h2, h3, h4, h5, h6 {
 
 
 /*header*/
+.headermobile {
+  display: none;
+}
 
 header {
   width: 100%;
@@ -62,6 +65,47 @@ li {
   font-family: muli;
   font-size: 18px;
   margin: 0 16px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .headerdesktop {
+    display: none;
+  }
+
+  .headermobile {
+    width: 100%;
+    height: 65px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .micon {
+    height: 40px;
+    width: 35px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+
+  .lion {
+    background-image: url("../images/ic-logo.svg");
+  }
+
+  .chair {
+    background-image: url("../images/ic-on-campus.svg");
+  }
+
+  .display {
+    background-image: url("../images/ic-online.svg");
+  }
+
+  .user {
+    background-image: url("../images/ic-login.svg");
+  }
+
 }
 
 
@@ -123,6 +167,30 @@ main {
   justify-content: center;
   width: 60%;
   margin-top: 30px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .picturecontainer {
+    width: 100%;
+    height: 250px;
+    padding: 0;
+  }
+
+  .maincontainer {
+    flex-wrap: wrap;
+  }
+
+  .mainmsg {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .maincta {
+    width: 100%;
+  }
+
 }
 
 
@@ -234,6 +302,61 @@ main {
 }
 
 
+@media only screen and (max-width: 480px) {
+
+  .articles-big {
+    display: none;
+  }
+
+  .articlesmallimg {
+    height: 180px;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+  }
+
+  .orient {
+    background-image: url("../images/information-orientation-mobile.jpg");
+  }
+
+  .campus {
+    background-image: url("../images/information-campus-mobile.jpg");
+  }
+
+  .guest {
+    background-image: url("../images/information-guest-lecture-mobile.jpg");
+  }
+
+  .articles-small {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .article-small {
+    flex-direction: column;
+  }
+
+  .articleinfo {
+    width: 100%;
+    padding: 16px;
+  }
+
+  .articlecontainer {
+    height: auto;
+  }
+
+  .articleinfo a {
+    margin-bottom: 10px;
+  }
+
+  .article-small-grey {
+    flex-wrap: wrap;
+    background-color: white;
+
+  }
+}
+
+
 /*Start learning*/
 
 .learningcontainer {
@@ -309,10 +432,47 @@ main {
 }
 
 
+@media only screen and (max-width: 480px) {
+
+  .learningcontainer {
+    border-top: 1px solid #EAEBEC;
+    border-bottom: 1px solid #EAEBEC;
+  }
+
+  .learning {
+    background-color: white;
+  }
+
+  .learn {
+    height: auto;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 4px 20px;
+  }
+
+  .learn h3 {
+    padding: 24px;
+    background-color: #EAEBEC;
+    margin: 0;
+  }
+
+  .learnimg {
+    display: none;
+  }
+
+  .learn p {
+    display: none;
+  }
+}
+
+
+
 /*exhibit*/
 
 .exhibitcontainer {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .exhibit {
@@ -338,8 +498,6 @@ main {
 
 .exhibitvideo {
   width: 60%;
-  padding: 0 24px;
-  margin-top: 16px;
 }
 
 .exhibitvideo p {
@@ -357,8 +515,6 @@ main {
 
 .exhibits-small {
   width: 40%;
-  padding-top: 16px;
-  padding-bottom: 32px;
   display: flex;
   flex-direction: column;
 }
@@ -395,6 +551,25 @@ main {
   background-image: url("../images/thesis-now-and-then.jpg");
 }
 
+@media only screen and (max-width: 480px) {
+
+  .exhibitvideo {
+    width: 100%;
+    padding: 0;
+    margin-bottom: 24px;
+  }
+
+  .exhibitvideo h3,
+  .exhibitvideo p {
+    display: none;
+  }
+
+  .exhibits-small {
+    display: none;
+  }
+
+}
+
 /*footer*/
 footer {
   display: flex;
@@ -415,4 +590,20 @@ footer {
   display: flex;
   font-size: 14px;
   font-weight: 100;
+}
+
+@media only screen and (max-width: 480px) {
+
+  footer {
+    border-top: 0;
+  }
+
+  footer h5 {
+    margin-top: 16px;
+    margin-left: 20px;
+  }
+
+  footer ul {
+    display: none;
+  }
 }
