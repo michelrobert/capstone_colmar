@@ -126,6 +126,7 @@ main {
 .picturecontainer {
   width: 60%;
   padding: 32px 24px;
+  box-sizing: border-box;
 }
 
 .mainpicture {
@@ -212,6 +213,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 32px 24px;
+  box-sizing: border-box;
 }
 
 .articlebigimg {
@@ -239,10 +241,10 @@ main {
 
 .articles-small {
   width: 40%;
-  padding-top: 16px;
-  padding-bottom: 32px;
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+  padding: 16px 20px 32px 0px;
 }
 
 .article-small {
@@ -337,7 +339,7 @@ main {
   }
 
   .articleinfo {
-    width: 100%;
+    width: auto;
     padding: 16px;
   }
 
@@ -486,7 +488,7 @@ main {
   font-size: 32px;
   font-weight: 700;
   margin-top: 32px;
-  margin-bottom: 16px;
+  margin-bottom: 32px;
   width: 100%;
 }
 
@@ -498,6 +500,8 @@ main {
 
 .exhibitvideo {
   width: 60%;
+  padding: 0 20px;
+  box-sizing: border-box;
 }
 
 .exhibitvideo p {
@@ -517,6 +521,8 @@ main {
   width: 40%;
   display: flex;
   flex-direction: column;
+  padding-right: 20px;
+  box-sizing: border-box;
 }
 
 .exhibit-small {
@@ -535,6 +541,7 @@ main {
   font-size: 20px;
   font-weight: bold;
   padding-right: 10px;
+  width: 65%;
 }
 
 .exhibitinfo p {
